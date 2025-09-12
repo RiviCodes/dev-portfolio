@@ -12,12 +12,10 @@ const { title, description, date } = Astro.props;
   class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900"
 >
 </div>
-<time class="mb-1 text-base leading-none font-normal text-[#86a2c5]"
-  >{date}</time
->
-<h3 class="mb-1 text-xl font-semibold text-[#e4e6eb]">
+<time class="mb-1 text-sm leading-none font-normal text-[#86a2c5]">{date}</time>
+<h3 class="mb-2 text-xl font-semibold text-[#e4e6eb]">
   {title}
 </h3>
-<p class="mb-4 text-base font-normal text-pretty text-[#9aa0a6]">
+<p class="text-base font-normal text-pretty text-[#9aa0a6]">
   {description}
 </p>
