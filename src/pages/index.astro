@@ -1,11 +1,83 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import ScrollToTop from "../components/ScrollToTop.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import SocialPill from "../components/SocialPill.astro";
+import LinkedInIcon from "../components/icons/LinkedInIcon.astro";
+import GitHubIcon from "../components/icons/GitHubIcon.astro";
+import MailIcon from "../components/icons/MailIcon.astro";
+import CVIcon from "../components/icons/CVIcon.astro";
+import Experience from "../components/Experience.astro";
+import Projects from "../components/Projects.astro";
+import Briefcase from "../components/icons/Briefcase.astro";
+import Code from "../components/icons/Code.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <main class="px-4">
+    <SectionContainer class="py-44">
+      <!-- Hero -->
+      <img
+        class="mb-4 size-24 rounded-full lg:size-34"
+        src="https://avatars.githubusercontent.com/u/80490417?v=4"
+        alt="Foto de RiviCodes"
+      />
+      <h1
+        class="flex flex-row gap-x-4 pb-6 text-3xl font-bold text-[#e4e6eb] md:text-4xl lg:pb-10 lg:text-5xl"
+      >
+        Hola, soy Ramón 👋<span class="flex items-center justify-center">
+        </span>
+      </h1>
+
+      <h2 class="max-w-[700px] text-xl text-wrap text-[#e4e6eb] lg:text-2xl">
+        <span
+          >Desarrollador de Software e Ingeniero en Sistemas Computacionales con
+          experiencia profesional en Front-End, especializado en JavaScript,
+          React, Astro y Tailwind CSS.</span
+        >
+      </h2>
+
+      <nav class="my-8 flex flex-wrap gap-4 pb-20">
+        <SocialPill href="https://www.linkedin.com/in/ramonriveram/">
+          <LinkedInIcon class="size-4 md:size-6" />
+          LinkedIn
+        </SocialPill>
+        <SocialPill href="https://github.com/RiviCodes">
+          <GitHubIcon class="size-4 md:size-6" />
+          GitHub
+        </SocialPill>
+        <SocialPill href="mailto:ramon.riveram@proton.me">
+          <MailIcon class="size-4 md:size-6" />
+          ramon.riveram@proton.me
+        </SocialPill>
+        <SocialPill>
+          <CVIcon href="" />
+          CV
+        </SocialPill>
+      </nav>
+
+      <!-- Experiencia -->
+      <SectionContainer id="experiencia">
+        <h2
+          class="mb-6 flex items-center gap-x-3 text-3xl font-semibold text-[#e4e6eb]"
+        >
+          <Briefcase class="size-7" />
+          Experiencia laboral
+        </h2>
+        <Experience />
+      </SectionContainer>
+
+      <!-- Proyectos -->
+      <SectionContainer id="proyectos">
+        <h2
+          class="mb-6 flex items-center gap-x-3 text-3xl font-semibold text-[#e4e6eb]"
+        >
+          <Code class="size-7" />
+          Proyectos
+        </h2>
+        <Projects />
+      </SectionContainer>
+    </SectionContainer>
+    <ScrollToTop />
+  </main>
 </Layout>

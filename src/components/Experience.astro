@@ -1,0 +1,30 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+
+const EXPERIENCE = [
+  {
+    date: "Actualmente ...",
+    title:
+      "Desarrollador de Software (Freelance) - Tarimas Industriales Rivera",
+    description:
+      "Desarrollé y desplegué un sitio web corporativo con Astro y Tailwind CSS, mejorando la presencia digital de la empresa mediante interfaces responsivas, fáciles de usar y optimizadas para SEO, adaptadas a las necesidades del cliente. Entregué una solución escalable y mantenible, alojada en Vercel, que garantizó rendimiento, flexibilidad y facilidad de actualización.",
+    link: "#",
+  },
+  {
+    date: "Julio 2022 - Julio 2023",
+    title: "Desarrollador de Software - Divélula",
+    description:
+      "Contribuí al desarrollo y mantenimiento de aplicaciones web responsivas, interpretando requerimientos de clientes e implementando sitios funcionales y atractivos con WordPress, HTML y CSS, además de personalizar temas y aplicar ajustes en PHP para resolver conflictos con plugins. Colaboré con el equipo de desarrollo en la identificación y solución de problemas de software, mejorando la calidad del código y el rendimiento, y realicé tareas de mantenimiento y optimización de bases de datos para asegurar la integridad y eficiencia de la información.",
+  },
+];
+---
+
+<ol class="relative ml-3 border-s border-gray-200">
+  {
+    EXPERIENCE.map((experience) => (
+      <li class="ms-4 mb-10">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
