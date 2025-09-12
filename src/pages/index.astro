@@ -17,44 +17,46 @@ import Code from "../components/icons/Code.astro";
   <main class="px-4">
     <SectionContainer class="py-44">
       <!-- Hero -->
-      <img
-        class="mb-4 size-24 rounded-full lg:size-34"
-        src="https://avatars.githubusercontent.com/u/80490417?v=4"
-        alt="Foto de RiviCodes"
-      />
-      <h1
-        class="pb-6 text-3xl font-bold text-[#e4e6eb] sm:text-4xl lg:pb-10 lg:text-5xl"
-      >
-        Hola, soy Ramón 👋<span class="flex items-center justify-center">
-        </span>
-      </h1>
-
-      <h2 class="max-w-[700px] text-lg text-wrap text-[#e4e6eb] md:text-2xl">
-        <span
-          >Desarrollador de Software e Ingeniero en Sistemas Computacionales con
-          experiencia profesional en Front-End, especializado en JavaScript,
-          React, Astro y Tailwind CSS.</span
+      <SectionContainer>
+        <img
+          class="mb-4 size-24 rounded-full lg:size-34"
+          src="https://avatars.githubusercontent.com/u/80490417?v=4"
+          alt="Foto de RiviCodes"
+        />
+        <h1
+          class="pb-6 text-3xl font-bold text-[#e4e6eb] sm:text-4xl lg:pb-10 lg:text-5xl"
         >
-      </h2>
+          Hola, soy Ramón 👋<span class="flex items-center justify-center">
+          </span>
+        </h1>
 
-      <nav class="my-8 flex flex-wrap gap-4">
-        <SocialPill href="https://www.linkedin.com/in/ramonriveram/">
-          <LinkedInIcon class="size-4 md:size-6" />
-          LinkedIn
-        </SocialPill>
-        <SocialPill href="https://github.com/RiviCodes">
-          <GitHubIcon class="size-4 md:size-6" />
-          GitHub
-        </SocialPill>
-        <SocialPill href="mailto:ramon.riveram@proton.me">
-          <MailIcon class="size-4 md:size-6" />
-          ramon.riveram@proton.me
-        </SocialPill>
-        <SocialPill>
-          <CVIcon href="/ramon_rivera_cv_desarrollador_software.pdf">
-            CV
-          </CVIcon>
-        </SocialPill>
+        <h2 class="max-w-[700px] text-lg text-wrap text-[#e4e6eb] md:text-2xl">
+          <span
+            >Desarrollador de Software e Ingeniero en Sistemas Computacionales
+            con experiencia profesional en Front-End, especializado en
+            JavaScript, React, Astro y Tailwind CSS.</span
+          >
+        </h2>
+
+        <nav class="my-8 flex flex-wrap gap-4">
+          <SocialPill href="https://www.linkedin.com/in/ramonriveram/">
+            <LinkedInIcon class="size-4 md:size-6" />
+            LinkedIn
+          </SocialPill>
+          <SocialPill href="https://github.com/RiviCodes">
+            <GitHubIcon class="size-4 md:size-6" />
+            GitHub
+          </SocialPill>
+          <SocialPill href="mailto:ramon.riveram@proton.me">
+            <MailIcon class="size-4 md:size-6" />
+            ramon.riveram@proton.me
+          </SocialPill>
+          <SocialPill>
+            <CVIcon href="/ramon_rivera_cv_desarrollador_software.pdf">
+              CV
+            </CVIcon>
+          </SocialPill>
+        </nav>
 
         <!-- Experiencia -->
         <SectionContainer id="experiencia">
@@ -77,7 +79,7 @@ import Code from "../components/icons/Code.astro";
           </h2>
           <Projects />
         </SectionContainer>
-      </nav>
+      </SectionContainer>
       <ScrollToTop />
     </SectionContainer>
   </main>
