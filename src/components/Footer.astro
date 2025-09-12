@@ -6,43 +6,40 @@ import MailIcon from "./icons/MailIcon.astro";
 import CVIcon from "./icons/CVIcon.astro";
 ---
 
-<footer class="bg-[#22222f] py-10">
-  <footer
-    class="mx-auto mt-4 mb-4 w-xs rounded-lg sm:w-md md:w-xl lg:w-3xl xl:w-4xl"
+<footer class="mt-4 mb-4 flex justify-center bg-[#22222f] py-10">
+  <div
+    class="flex w-xs flex-col flex-wrap items-start gap-y-3 sm:w-md md:w-xl lg:w-3xl xl:w-4xl"
   >
-    <div class="flex flex-col flex-wrap items-start gap-y-3">
-      <SocialPill href="https://www.linkedin.com/in/ramonriveram/">
-        <LinkedInIcon class="size-4 md:size-6" />
-        LinkedIn
-      </SocialPill>
+    <SocialPill href="https://www.linkedin.com/in/ramonriveram/">
+      <LinkedInIcon class="size-4 md:size-6" />
+      LinkedIn
+    </SocialPill>
 
-      <SocialPill href="https://github.com/RiviCodes">
-        <GitHubIcon class="size-4 md:size-6" />
-        GitHub
-      </SocialPill>
+    <SocialPill href="https://github.com/RiviCodes">
+      <GitHubIcon class="size-4 md:size-6" />
+      GitHub
+    </SocialPill>
 
-      <SocialPill href="mailto:ramon.riveram@proton.me">
-        <MailIcon class="size-4 md:size-6" />
-        ramon.riveram@proton.me
-      </SocialPill>
+    <SocialPill href="mailto:ramon.riveram@proton.me">
+      <MailIcon class="size-4 md:size-6" />
+      ramon.riveram@proton.me
+    </SocialPill>
 
-      <SocialPill href="#">
-        <CVIcon class="size-4 md:size-6" />
-        CV
-      </SocialPill>
-      <div
-        class="mx-auto mt-4 flex w-full max-w-screen-xl flex-col items-center justify-between"
-      >
-        <span
-          class="text-sm text-gray-500 sm:text-center sm:text-base dark:text-gray-400"
-          >Con cariño a <a href="https://x.com/midudev"
-            ><span
-              class="inline-block bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-400 bg-clip-text font-semibold text-transparent transition hover:from-indigo-400 hover:via-violet-400 hover:to-purple-400"
-              >Miguel A. Durán</span
-            ></a
-          > por el increíble diseño 🫶
-        </span>
-      </div>
+    <SocialPill href="#">
+      <CVIcon class="size-4 md:size-6" />
+      CV
+    </SocialPill>
+    <div
+      class="mx-auto mt-8 flex w-full max-w-screen-xl flex-col items-center justify-between text-center"
+    >
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        >Gracias a <a href="https://x.com/midudev"
+          ><span
+            class="inline-block bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-400 bg-clip-text font-semibold text-transparent transition hover:from-indigo-400 hover:via-violet-400 hover:to-purple-400"
+            >Miguel A. Durán</span
+          ></a
+        > por el <br /> increíble diseño 🫶
+      </span>
     </div>
-  </footer>
+  </div>
 </footer>
