@@ -5,7 +5,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 [![Deploy con Vercel](https://img.shields.io/badge/deploy-Vercel-blue?logo=vercel)](https://tarimas-industriales-rivera-web.vercel.app)
 
-Este repositorio contiene mi portafolio personal, donde muestro algunos de mis proyectos, habilidades técnicas, y mi trayectoria como desarrollador.
+Este repositorio contiene mi portafolio personal donde muestro algunos de mis proyectos, habilidades técnicas y mi trayectoria como desarrollador.
 
 ## 🚀 Demo en línea
 
@@ -22,9 +22,10 @@ Este repositorio contiene mi portafolio personal, donde muestro algunos de mis p
 
 Este sitio muestra:
 
-- Mis proyectos destacados: aquellos en los que he trabajado personalmente o colaborado, que evidencian mis habilidades técnicas y creativas.
-- Información de contacto.
-- Mi formación y experiencia laboral.
+- Mis proyectos destacados
+- Mi experiencia profesional
+- Mi formación académica
+- Información de contacto
 
 ## 📂 Estructura del repositorio
 
