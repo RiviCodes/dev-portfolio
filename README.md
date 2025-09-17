@@ -1,5 +1,10 @@
 # 💼 Portafolio
 
+![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+[![Deploy con Vercel](https://img.shields.io/badge/deploy-Vercel-blue?logo=vercel)](https://tarimas-industriales-rivera-web.vercel.app)
+
 Este repositorio contiene mi portafolio personal, donde muestro algunos de mis proyectos, habilidades técnicas, y mi trayectoria como desarrollador.
 
 ## 🚀 Demo en línea
