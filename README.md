@@ -9,7 +9,7 @@ Este repositorio contiene mi portafolio personal donde muestro algunos de mis pr
 
 ## 🚀 Demo en línea
 
-**URL:** https://rivicodes-portfolio.vercel.app
+**URL:** [rivicodes.dev](https://www.rivicodes.dev)
 
 ## 🛠 Tecnologías
 
