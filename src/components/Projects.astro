@@ -87,11 +87,13 @@ const PROJECTS = [
           </li>
         ))}
       </ul>
-      <img
-        class="mt-2 rounded shadow-2xl shadow-white/30"
-        src={image}
-        alt={`Captura de pantalla del proyecto ${title}`}
-      />
+      <a href={link} target="_blank" rel="noopener norefferer">
+        <img
+          class="mt-2 rounded shadow-2xl shadow-white/30"
+          src={image}
+          alt={`Captura de pantalla del proyecto ${title}`}
+        />
+      </a>
     </article>
   ))
 }
